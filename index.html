@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=h1, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
@@ -18,11 +18,12 @@
 				<p>
 					<a
 						href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav"
+						target="_blank"
 						>Official Site</a
 					>
 				</p>
 				<p>
-					<a href="https://www.w3schools.com/Css/css_navbar.asp"
+					<a href="https://www.w3schools.com/Css/css_navbar.asp" target="_blank"
 						>Link to W3Schools</a
 					>
 				</p>
@@ -39,23 +40,24 @@
 			</figure>
 		</section>
 		<section class="navExample">
-			<h2>Nav example</h2>
+			<h2>Nav examples</h2>
 			<nav>
 				<a href="">Icon Home</a>
 				<ul>
-					<li><a href="#">Homme</a></li>
+					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 			<nav class="navHorizontal">
-				<a href="">Icon Home</a>
-				<button>Toggle menu</button>
+				<a href="#">Icon Home</a>
+				<button class="toggle-btn">Toggle menu</button>
 				<ul>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 		</section>
+		<script src="./script.js"></script>
 	</body>
 </html>
