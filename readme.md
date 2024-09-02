@@ -13,7 +13,7 @@ This project is focused on exploring and showcasing different case studies relat
 1. You could clone this repo into your machine:
 
 ```dash
-Clone this repository to your local machine
+git clone https://github.com/web-rest-api/000-The-Basics.git
 ```
 
 2. Open your project with your preferred IDE, modify it and have fun !
